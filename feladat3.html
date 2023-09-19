@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecsedi Tamás - Feladat 3</title>
+    <script>
+        function feladat(szoveg){
+            status=document.getElementById("status")
+            statusElement.textContent = szoveg;
+        }
+    </script>
+</head>
+<body>
+    <p id="status">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima hic error repellat doloribus cumque expedita voluptas dolorum at? Voluptatibus voluptatem hic similique deleniti earum laboriosam itaque quis voluptatum, magni nemo?</p>
+    <img src="bird1.png" alt="Egy madár kép" onload="feladat('Betöltődött')" onclick="feladat('Rákattintott')">
+</body>
+</html>
