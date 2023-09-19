@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecsedi Tamás - Feladat 4</title>
+    <script>
+        function frissit(){
+            bemenet=document.getElementById("bemenet");
+            kimenet=document.getElementById("kimenet");
+            kimenet.textContent=bemenet.value;
+        }
+    </script>
+</head>
+<body>
+    <p id="kimenet">Kimeneti szöveg bekezdése</p>
+    <input type="text" id="bemenet" oninput="frissit()">
+</body>
+</html>
